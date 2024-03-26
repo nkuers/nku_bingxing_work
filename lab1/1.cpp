@@ -6,7 +6,7 @@ const int bias = 100;
 int a[N];
 int b[N][N];
 int sum[N];
-int LOOP = 10;
+int LOOP = 1000;
 
 void init()
 {
@@ -100,5 +100,5 @@ int main()
     ordinary();
     optimize();
     unroll();
-    system("pause");
+    
 }
