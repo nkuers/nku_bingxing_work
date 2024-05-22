@@ -25,3 +25,7 @@
 **barrier_avx.cpp**
 
 普通高斯消去的静态线程+barrier与avx指令集相结合的实现
+
+**pthread_super.cpp**
+
+特殊高斯消去实现
